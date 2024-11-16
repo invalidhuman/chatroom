@@ -2,14 +2,14 @@ package com.inu.hackerton.spring.controller;
 
 import com.inu.hackerton.spring.model.Test;
 import com.inu.hackerton.spring.model.TestResponse;
-import com.inu.hackerton.spring.repository.TestRepository;
+//import com.inu.hackerton.spring.repository.TestRepository;
 import com.inu.hackerton.spring.service.TestService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.util.NoSuchElementException;
+//import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @RestController
